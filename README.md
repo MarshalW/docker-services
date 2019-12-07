@@ -52,3 +52,11 @@ zentao，启动禅道服务：
 
 - www 服务，http://www.myservice
 - zentao 服务，http://z.myservice
+
+### 继续实现 jenkins 和 phabricator
+
+- 需要分配客户端访问域名，或者配置 hosts 文件
+- 在服务的目录下，比如 ./jenkins 下创建 docker-compose.yml
+- 在 ./nginx/conf.d/ 目录下创建相应的虚拟主机配置文件
+
+

@@ -20,7 +20,7 @@
 
 ### 准备工作
 
-需要在 /etc/hosts 文件中
+需要在客户端 /etc/hosts 文件中
 
 ```
 192.168.0.xxx z.myservice

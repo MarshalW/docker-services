@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  nginx:
+    image: nginx:latest
+    container_name: www
+
+networks:
+  default:
+    name: my-services

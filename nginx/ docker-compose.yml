@@ -1,0 +1,13 @@
+version: "3.7"
+services:
+  nginx:
+    image: nginx:latest
+    container_name: nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ${PROJECT_HOME}/nginx/:/etc/nginx/conf.d/:ro
+
+networks:
+  default:
+    name: my-services
